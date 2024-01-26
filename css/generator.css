@@ -119,6 +119,8 @@ h1, h5 {
 }
 .col-3 {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .col-1 {
     width: 100%;
