@@ -30,8 +30,8 @@ main.number{
 }
 
 .box{
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     display: flex;
     justify-content: center;
     background-color: rgba(0, 217, 255, 0.8);
@@ -41,8 +41,8 @@ main.number{
 
 }
 .box img{
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     position: relative;
     top: 7px;
 }
@@ -160,19 +160,4 @@ h1, h5 {
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     padding-left: 0;
     padding-right: 0;
-}
-@media (max-width: 575.98px) {
-    .box{
-        margin: 2px;
-        height: 55px;
-        width: 55px;
-    }
-    .box img{
-        height: 45px;
-        width: 45px;
-        position: relative;
-        top: 5px;
-    }
-    
-
 }
