@@ -32,6 +32,8 @@ main.number{
 .box{
     height: 70px;
     width: 70px;
+    display: flex;
+    justify-content: center;
     background-color: rgba(0, 217, 255, 0.8);
     margin: 15px;
     border-radius: 10px;
