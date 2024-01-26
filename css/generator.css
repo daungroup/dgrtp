@@ -120,6 +120,8 @@ h1, h5 {
 }
 .col-1 {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #generate {
     width: 34.5%;
