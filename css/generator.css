@@ -163,7 +163,15 @@ h1, h5 {
 }
 @media (max-width: 575.98px) {
     .box{
-        margin: 2px
+        margin: 2px;
+        height: 55px;
+        width: 55px;
+    }
+    .box img{
+        height: 45px;
+        width: 45px;
+        position: relative;
+        top: 5px;
     }
     
 
