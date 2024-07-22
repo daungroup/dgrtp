@@ -1,0 +1,353 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {color: #7301de}
+.color-1{background-image: url(https://i.postimg.cc/XJjt8g8t/Pngtree-black-red-casino-portrait-wallpaper-1471943-1.jpg);}
+.color-2{background-color: #000000}
+.color-3{background-color: #730794}
+.color-4{background-color: #ffffff}
+.color-5{background-color: #730781}
+.color-6{background-color: #179cb9}
+.text-justify {
+    text-align: justify;
+}
+.web-logo {
+    width: 100%;
+    max-width: 150px;
+}
+.card-game {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+i.icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+}
+.bi-person-plus-fill {
+    margin-right: 0.5rem;
+}
+.btn-regis {
+    font-size: .875rem;
+    font-weight: 700;
+    background: #730794;
+    color: #fff;
+}
+.btn-regis:hover {
+    background: #c501c5;
+}
+.mr-n1{margin-right: -1rem;}
+.btn-slide {background: #070c1e;}
+.list-group-item .provider-thumbnail {
+    display: block;
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+}
+.list-group-item span {
+    margin-left: .5rem;
+    font-weight: 700;
+}
+.list-group-item {border-bottom: 1px solid #111c3f;}
+.list-group-item-action:focus, .list-group-item-action:hover {background-color: #111c3f;}
+.list-group-item.active a {
+    background-color: #111c3f;
+    border: none;
+    color: #000000;
+}
+.card.card-game {
+    background: none;
+    display: block;
+    position: relative;
+    min-height: 100px;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+    height: 100%;
+}
+.card.card-game .game-link {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 33px;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+.card.card-game:hover .game-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+.card-game span {
+    color: #ffffff;
+    text-transform: capitalize;
+    width: 85%;
+    font-weight: 700;
+    text-align: center;
+    font-size: .75rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.btn-game {
+    padding: 3px 8px;
+    color: #000;
+    background: #c401de;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.btn-game:hover {
+    background-color: #b501c5;
+    color: #fff;
+}
+.btn-login {
+    border-radius: 0;
+    line-height: 1.2;
+}
+.btn-login small, .btn-login span{
+    animation: blinking 1s step-start infinite;
+}
+.btn-group span {
+    font-weight: 700;
+}
+input#search {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    background-color: #070c1e;
+    color: #fff;
+    font-size: .875rem;
+    font-family: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: color .2s ease,border-color .2s ease;
+}
+.card-provider{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #070c1e;
+    border-radius: 50%;
+    flex: 1 1 auto;
+    margin: 0 auto;
+}
+.card-provider img{
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+.game-item {
+    height: 0;
+    position: relative;
+    padding-bottom: 67.44186%;
+}
+.game-item-img {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: opacity .2s ease;
+}
+.owl-item {
+    text-align: center;
+}
+.owl-item .active span {
+    color: #debc01;
+}
+.owl-item span {
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    font-size: .625rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+.carousel-game {
+    background: #1d2c59;
+    border-radius: 3px;
+}
+.carousel-game .col {
+    flex: 0 0 0%;
+    height: auto;
+}
+#owl-game {
+    flex: 1 0 auto;
+    width: 50%;
+    margin: 0 auto;
+}
+.animate-charcter {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card.card-game .card-body .game-link {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+.card.card-game .card-body:hover .game-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+.percent {
+    height: 25px;
+    display: flex;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0.75rem;
+    background-color: #1d2c59;
+    border-radius: 0 0 4px 4px;
+    padding: 4px 5px;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 0 -3px 5px #243a7a inset, 0 1px 0px #9339fd;
+    box-shadow: 0 -3px 5px #243a7a inset, 0 1px 0px #9339fd;
+}
+.percent p {
+    z-index: 15;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    transform: translateY(9px);
+    color: white;
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+}
+.percent-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    transition: width 0.6s ease;
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+    z-index: 10;
+}
+.yellow {
+    background-color: #debc01;
+}
+.green {
+    background-color: #0eb700;
+}
+.red {
+    background-color: #b12c55;
+}
+.shine {
+    position: relative;;
+}
+.shine:after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-animation: animate-shine 2s ease-out infinite;
+    -moz-animation: animate-shine 2s ease-out infinite;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal-close {
+    font-size: 23px;
+    cursor: pointer;
+}
+.modal .modal-dialog .modal-content .modal-header h5 {
+    font-size: 18px;
+}
+.modal .modal-dialog .modal-content .modal-body p.text-list {
+    display: block;
+    position: relative;
+    width: 30px;
+    color: #455a99;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.modal .modal-dialog .modal-content .modal-body h5, .modal .modal-dialog .modal-content .modal-body p {
+    font-size: 14px;
+}
+.footer-text {
+    background: #111c3f;
+    border-top: 1px solid #293353;
+}
+@keyframes blinking {
+    50% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes animate-shine { 
+	0% {opacity: 0; width: 0;}
+	50% {opacity: .5;}
+	100% {opacity: 0; width: 95%;}
+}
+@-moz-keyframes animate-shine {
+	0% {opacity: 0; width: 0;}
+	50% {opacity: .5;}
+	100% {opacity: 0; width: 95%;}
+}
+@media (min-width: 576px){
+    .text-xs-left {
+        text-align: left;
+    }
+}
+@media (min-width: 993px) {
+    .modal .modal-dialog .modal-content {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
